@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Music Stories - Musicstory</title>
+    <link rel="stylesheet" href="explore.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Musicstory</h1>
+            </div>
+            <nav class="navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="explore.html" class="nav-link active">Explore</a>
+                <a href="#" class="nav-link">Top hits</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Explore Music Stories</h1>
+            <p class="hero-description">
+                Dive deep into the fascinating world of music and discover the stories behind your favorite songs
+            </p>
+        </div>
+    </section>
+
+    <!-- Featured Song Section -->
+    <section class="featured-section">
+        <div class="container">
+            <h2 class="section-title">Featured Song</h2>
+            
+            <div class="featured-song">
+                <div class="song-image">
+                    <img src="./pics/letdown.jpeg" alt="Let Down by Radiohead" onerror="this.src='https://via.placeholder.com/200x200?text=Let+Down'" />
+                </div>
+                
+                <div class="song-info">
+                    <h3 class="song-title">Let Down</h3>
+                    <p class="artist-name">By Radiohead</p>
+                    
+                    <div class="song-description">
+                        <p>The first time I heard "Let Down," I almost couldn't believe it was a Radiohead song. The emotions it evoked seemed too optimistic; for a Radiohead song, it felt weirdly comforting. Although there is a sense of melancholy and subdued rage in the lyrics, to me, the music ultimately conveys a feeling of acceptance. Lyrically and musically, "Let Down" remains one of my favorite Radiohead songs.</p>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <a href="https://open.spotify.com/search/Let%20Down%20Radiohead" target="_blank" class="btn btn-spotify">Listen on Spotify</a>
+                        <a href="#letdown-modal" class="btn btn-secondary">See more information</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pahina by Cup of Joe -->
+            <div class="featured-song">
+                <div class="song-image">
+                    <img src="./pics/OIP.jpeg" alt="Pahina by Cup of Joe" onerror="this.src='https://via.placeholder.com/200x200?text=Pahina'" />
+                </div>
+                
+                <div class="song-info">
+                    <h3 class="song-title">Pahina</h3>
+                    <p class="artist-name">By Cup of Joe</p>
+                    
+                    <div class="song-description">
+                        <p>The song "Pahina" by Cup of Joe, released on January 17, 2025, as part of their album "Silakbo," delves into the intricate themes of love, longing, and the bittersweet nature of relationships. This poignant track captures the essence of nostalgia, reflecting on cherished moments shared with a loved one while also acknowledging the emotional complexities that accompany such connections. The title "Pahina," which translates to "page" in English, symbolizes the turning of pages in a book, representing the various chapters of life and love that shape our experiences.</p>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <a href="https://open.spotify.com/search/Pahina%20Cup%20of%20Joe" target="_blank" class="btn btn-spotify">Listen on Spotify</a>
+                        <a href="#pahina-modal" class="btn btn-secondary">See more information</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <!-- Let Down Modal -->
+    <div id="letdown-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Let Down - Radiohead</h2>
+                <a href="#" class="close">&times;</a>
+            </div>
+            <div class="modal-body">
+                <div class="modal-song-info">
+                    <img src="./pics/letdown.jpeg" alt="Let Down by Radiohead" class="modal-image" onerror="this.src='https://via.placeholder.com/150x150?text=Let+Down'" />
+                    <div class="modal-details">
+                        <h3>Album: OK Computer</h3>
+                        <p><strong>Release Date:</strong> July 1, 1997</p>
+                        <p><strong>Genre:</strong> Alternative Rock, Art Rock</p>
+                        <p><strong>Length:</strong> 4:59</p>
+                        <p><strong>Writers:</strong> Radiohead</p>
+                        <p><strong>Producer:</strong> Nigel Godrich, Radiohead</p>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <h4>About the Song</h4>
+                    <p>The first time I heard "Let Down," I almost couldn't believe it was a Radiohead song. The emotions it evoked seemed too optimistic; for a Radiohead song, it felt weirdly comforting. Although there is a sense of melancholy and subdued rage in the lyrics, to me, the music ultimately conveys a feeling of acceptance.</p>
+                    
+                    <p>"Let Down" is one of Radiohead's most emotionally complex songs, featuring layered guitars and Thom Yorke's distinctive vocals. The song explores themes of disappointment and alienation while maintaining a sense of hope and beauty that makes it stand out in their catalog.</p>
+                    
+                    <p>The track is notable for its intricate arrangement, featuring multiple guitar parts that weave together to create a rich, atmospheric soundscape. Lyrically and musically, "Let Down" remains one of my favorite Radiohead songs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pahina Modal -->
+    <div id="pahina-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Pahina - Cup of Joe</h2>
+                <a href="#" class="close">&times;</a>
+            </div>
+            <div class="modal-body">
+                <div class="modal-song-info">
+                    <img src="./pics/OIP.jpeg" alt="Pahina by Cup of Joe" class="modal-image" onerror="this.src='https://via.placeholder.com/150x150?text=Pahina'" />
+                    <div class="modal-details">
+                        <h3>Album: Silakbo</h3>
+                        <p><strong>Release Date:</strong> January 17, 2025</p>
+                        <p><strong>Genre:</strong> OPM, Indie Pop</p>
+                        <p><strong>Artist:</strong> Cup of Joe</p>
+                        <p><strong>Language:</strong> Filipino</p>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <h4>About the Song</h4>
+                    <p>The song "Pahina" by Cup of Joe, released on January 17, 2025, as part of their album "Silakbo," delves into the intricate themes of love, longing, and the bittersweet nature of relationships. This poignant track captures the essence of nostalgia, reflecting on cherished moments shared with a loved one while also acknowledging the emotional complexities that accompany such connections.</p>
+                    
+                    <p>The title "Pahina," which translates to "page" in English, symbolizes the turning of pages in a book, representing the various chapters of life and love that shape our experiences. The song's lyrics explore how relationships evolve over time, with each moment becoming a page in the story of two people's lives.</p>
+                    
+                    <p>Musically, "Pahina" showcases Cup of Joe's signature sound, blending contemporary OPM with indie pop sensibilities. The song's gentle melody and heartfelt delivery make it a standout track that resonates with listeners who have experienced the complexities of love and relationships.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Musicstory. Celebrating Filipino Music.</p>
+    </footer>
+</body>
+</html>
